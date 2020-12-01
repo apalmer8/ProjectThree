@@ -135,5 +135,27 @@ img {
     margin-right: 10%;
     width: 40%;
 }
-
+.mapGuide {
+  position: relative;
+  left: 5%;
+  float: left;
+  width: 25%;
+  margin-top: 2.5%;
+  background-color: white;
+  border: 10px groove purple;
+  border-radius: 20px;
+}
+.mapGuide h2{
+  color: purple;
+}
+.mapGuide li {
+  text-align: center;
+  padding: 5% 0 5% 0;
+  margin-right: 10%;
+  font-size: 105%;
+  color: pink;
+}
+.mapGuide ol{
+  list-style-type: none;
+}
 
