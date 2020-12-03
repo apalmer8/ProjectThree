@@ -6,6 +6,10 @@
   <title>My Favorite Foods </title>
   <link rel="stylesheet"  type="text/css" href="css/styles.css" >
   <link rel="stylesheet"  type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" href="css/slide.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body class = "body3">
 
@@ -36,36 +40,36 @@
   x.volume = 0.2;
   </script>
   
+  
   <div class="header">
-    <h1>All Time Top 5 Favorite Meals </h1>
-  </div>
+		<h1>All Time Top 5 Favorite Meals </h1>
+	</div>
   
   
-  <section class=Pizza>
-  <h2>1. Pizza</h2>
-  <img src="media/pizza.jpg" alt="pizza">
-  </section>
+  </main>
   
-  <section class=Fett>
-  <h2>2. Fettucine Chicken Alfredo</h2>
-  <img src="media/alf.jpg" alt="alfredo">
-  </section>
-  
-  <section class=Chick>
-  <h2>3. Chicken and Waffles </h2>
-  <img src="media/chiw.jpg" alt="chickenandwaffles">
-  </section>
-  
-  <section class=Robin>
-  <h2>4. Red Robin's Smoke and Pepper Burger</h2>
-  <img src="media/rrsp.jpg" alt="redrobin">
-  </section>
-  
-  <section class=Monte>
-  <h2>5. Monte Cristo Sandwiches </h2>
-  <img src="media/monte.png" alt="montecristo">
-  </section>
-  
+      <div class="slidecontain">
+        <p>Favorite Food Slider</p>
+        <div class="slider">
+          <div class="slidepic">
+            <img src="media/pizza.jpg" alt="pizza" title="Pizza">
+          </div>
+          <div class="slidepic">
+            <img src="media/alf.jpg" alt="alfredo" title="Fettucine Alfredo">
+          </div>
+          <div class="slidepic">
+            <img src="media/chiw.jpg" alt="chickenandwaffles" title="Chicken and Waffles">
+          </div>
+          <div class="slidepic">
+            <img src="media/rrsp.jpg" alt="redrobin" title="Red Robin">
+          </div>
+          <div class="slidepic">
+             <img src="media/monte.png" alt="montecristo" title="Monte Cristo">
+          </div>
+          
+        </div>
+      </div>
+
 </body>
 
 </html>
